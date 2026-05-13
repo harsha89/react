@@ -1,9 +1,6 @@
 'use strict';
 
-const {
-  es5Paths,
-  esNextPaths,
-} = require('./scripts/shared/pathsByLanguageVersion');
+require('./scripts/shared/pathsByLanguageVersion');
 
 const restrictedGlobals = require('confusing-browser-globals');
 
